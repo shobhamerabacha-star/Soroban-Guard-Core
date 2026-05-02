@@ -16,7 +16,7 @@ use syn::File;
 
 /// Severity of a finding.
 #[derive(Clone, Copy, Debug, Eq, PartialEq, Serialize)]
-#[serde(rename_all = "lowercase")]
+#[serde(rename_all = "PascalCase")]
 pub enum Severity {
     High,
     Medium,

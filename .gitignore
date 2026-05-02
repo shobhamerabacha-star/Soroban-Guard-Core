@@ -6,3 +6,5 @@ web/.next
 web/out
 test-contracts/**/target
 test-contracts/**/Cargo.lock
+config.bat
+node_modules
